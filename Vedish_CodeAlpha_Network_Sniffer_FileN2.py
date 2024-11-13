@@ -1,8 +1,8 @@
 #Before you start, make sure to install scapy in your Windows Command Prompt [Open Command Prompt with Administrator Privilege]
 #Then type and run: pip install scapy
-#Save this python file, named as Packet Capture in a folder. Example: C:\Users\User 1\Desktop\Python Folder
+#Save this python file, named as Network Sniffer in a folder. Example: C:\Users\User 1\Desktop\Python Folder
 #In CMD that you've opened as administrator, run: cd C:\Users\User 1\Desktop\Python Folder
-#After running previous command, run: python Packet Capture.py
+#After running previous command, run: python Network Sniffer.py
 
 from scapy.all import sniff
 from scapy.layers.inet import IP, TCP, UDP, ICMP
@@ -72,6 +72,6 @@ if __name__ == "__main__":
 
 #This is the First task assigned by CODEALPHA to Vedish. Task has been completed. 
 #In order for the code to run successfully, follow line 1-5
-#The code contains the following information regarding the packets captured: 
+#The code contains the following information regarding the network sniffer tool with packets captured: 
 #Protocol; Source IP; Destination IP; Source Port; Destination Port; Flags; Payload; Host, and so much more!
 #Unfortunately I wouldn't be able to execute the python file since It will produce Confidential information.
